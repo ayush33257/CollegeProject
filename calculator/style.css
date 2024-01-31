@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #3494E6, #EC6EAD);
+}
+
+.calculator {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners for a nicer look */
+}
+
+#display {
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners for buttons */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
